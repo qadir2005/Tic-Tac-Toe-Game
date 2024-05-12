@@ -1,0 +1,108 @@
+body{
+    background-image: linear-gradient(to left, #1E0342, #0E46A3);
+}
+h1{
+    background-clip: text;
+    background-image: linear-gradient(to left, #7F27FF, #FF3FA4);
+    color: transparent;
+    font-weight: bold;
+    text-align: center;
+    font-family: "jaro";
+    font-size: 3.5vw;
+}
+.container{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around ;
+    font-family: sans-serif;
+}
+
+span{
+    background-image:linear-gradient(to right, #7f27ff, #ff3fa4);
+    color: #F6F5F2;
+    padding: 7px 15px;
+    font-size: 1.3vw;
+    border-radius: 5px;
+    /* margin: auto; */
+}
+.game_box{
+    height: 250px;
+    width: 250px;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+padding-top: 15px;
+box-sizing: border-box;
+align-content: center;
+gap: 5px;
+justify-content: center;
+margin: auto;
+border-radius: 10px;
+background: linear-gradient(to right, #7f27ff, #ff3fa4);
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5)
+}
+.hide{padding-bottom: 11px;
+    font-family: sans-serif;
+    color: antiquewhite;
+    font-weight: bold;
+    height: fit-content;
+    text-align: center;
+    font-size: 25px;
+}
+.game_box button{
+    width: 60px;
+    cursor: pointer;
+    height: 60px;
+    background-color: white;
+    color: #7F27FF;
+    
+    border: none;
+    box-shadow: 5px 5px 10px purple;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.game_box button:active{
+    box-shadow: none;
+}
+.reset{
+    background-image: linear-gradient(to bottom, #7f27ff, #ff3fa4);
+    box-shadow: 5px 2px 10px rgb(182, 22, 214);
+    width: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: 50px;
+    text-align: center;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reset:active{
+    box-shadow: none;
+}
+.winner{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media screen and (max-width: 376px) {
+    h1{
+        font-size: 45px;
+        margin-bottom: 6px;
+
+    }
+    span{
+        font-size: 18px;
+        margin-bottom: 30px;
+        padding: 3px 8px;
+    }
+    .reset{
+        margin-left: 37%;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    
+}
